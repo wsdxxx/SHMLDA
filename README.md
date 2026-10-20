@@ -3,19 +3,19 @@
 1. Directory Structure
 
 main.py 
-# Entry for main training and evaluation
+#Entry for main training and evaluation
 
 model.py                             
-# Encoder, decoder, and GMAE training framework
+#Encoder, decoder, and GMAE training framework
 
 SoftHGNN.py                          
-# Core implementation of soft hypergraph and dual-channel structural encoder
+#Core implementation of soft hypergraph and dual-channel structural encoder
 
 mask.py                              
-# Edge masking and sampling
+#Edge masking and sampling
 
 utils.py                             
-# Data loading, similarity graph construction, negative sampling
+#Data loading, similarity graph construction, negative sampling
 
 2. Datasets
 
@@ -51,7 +51,7 @@ scipy   1.13.1
 
 matplotlib 3.9.2
 
-6. Quick Start
+5. Quick Start
 
 Main experiment:
 
