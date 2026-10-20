@@ -1,7 +1,10 @@
 # SHMLDA
 
 1. Directory Structure
+
+
 main.py                              # Entry for main training and evaluation
+
 model.py                             # Encoder, decoder, and GMAE training framework
 SoftHGNN.py                          # Core implementation of soft hypergraph and dual-channel structural encoder
 mask.py                              # Edge masking and sampling
@@ -17,7 +20,7 @@ Four benchmark datasets
 `DSS.csv`  disease semantic similarity
 `LD_adjmat.csv`  lncRNA–disease association adjacency matrix (0/1)
 
-4. Environment
+3. Environment
 Python  3.9
 torch   2.3.0
 numpy   1.26.4
@@ -26,7 +29,7 @@ sklearn 1.5.1
 scipy   1.13.1
 matplotlib 3.9.2
 
-5. Quick Start
+4. Quick Start
 Main experiment:
 python main.py --dataset 1 --evaluation_protocol 5cv
 
